@@ -2,7 +2,7 @@
   <header>
     <style>
       body {
-        background: blue;
+        background: <%= color %>
       }
     </style>
   </header>
@@ -10,9 +10,6 @@
     <p>
       <%= message %>
     </p>
-    <!-- <p>
-      The secret number is <%= number %>
-    </p> -->
     <form>
       <input type='text' name='guess' />
       <input type='submit' value='Guess!' />
